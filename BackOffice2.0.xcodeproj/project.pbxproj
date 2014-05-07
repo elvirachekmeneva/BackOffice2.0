@@ -14,13 +14,23 @@
 		24AF88371917CAC600DB6990 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF88361917CAC600DB6990 /* main.m */; };
 		24AF883B1917CAC600DB6990 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF883A1917CAC600DB6990 /* AppDelegate.m */; };
 		24AF883E1917CAC600DB6990 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24AF883C1917CAC600DB6990 /* Main.storyboard */; };
-		24AF88411917CAC600DB6990 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF88401917CAC600DB6990 /* ViewController.m */; };
 		24AF88431917CAC600DB6990 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24AF88421917CAC600DB6990 /* Images.xcassets */; };
 		24AF884A1917CAC600DB6990 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24AF88491917CAC600DB6990 /* XCTest.framework */; };
 		24AF884B1917CAC600DB6990 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24AF882A1917CAC600DB6990 /* Foundation.framework */; };
 		24AF884C1917CAC600DB6990 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24AF882E1917CAC600DB6990 /* UIKit.framework */; };
 		24AF88541917CAC600DB6990 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24AF88521917CAC600DB6990 /* InfoPlist.strings */; };
 		24AF88561917CAC600DB6990 /* BackOffice2_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF88551917CAC600DB6990 /* BackOffice2_0Tests.m */; };
+		24AF8878191829F800DB6990 /* ISMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF8877191829F800DB6990 /* ISMViewController.m */; };
+		24AF887D19182A9E00DB6990 /* UIWindow+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF887C19182A9E00DB6990 /* UIWindow+Screenshot.m */; };
+		24AF887F19183A4A00DB6990 /* fancyBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 24AF887E19183A4A00DB6990 /* fancyBackground.png */; };
+		24AF88811918BE3400DB6990 /* main-bgr.png in Resources */ = {isa = PBXBuildFile; fileRef = 24AF88801918BE3400DB6990 /* main-bgr.png */; };
+		24AF888A1918C21B00DB6990 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF88891918C21B00DB6990 /* MainViewController.m */; };
+		24AF88901918F59000DB6990 /* BackgroundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF888F1918F59000DB6990 /* BackgroundVC.m */; };
+		24AF88941918F6EA00DB6990 /* UIColor+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF88931918F6EA00DB6990 /* UIColor+Color.m */; };
+		24AF88961918F7A400DB6990 /* main-bgr-color.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24AF88951918F7A400DB6990 /* main-bgr-color.jpg */; };
+		24AF88981918F7AE00DB6990 /* main-bgr-gray.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24AF88971918F7AE00DB6990 /* main-bgr-gray.jpg */; };
+		24AF88A719191AD800DB6990 /* SwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF88A619191AD800DB6990 /* SwipeView.m */; };
+		24AF88AB191A2BB400DB6990 /* TaskCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF88AA191A2BB400DB6990 /* TaskCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +55,30 @@
 		24AF88391917CAC600DB6990 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		24AF883A1917CAC600DB6990 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		24AF883D1917CAC600DB6990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		24AF883F1917CAC600DB6990 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		24AF88401917CAC600DB6990 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		24AF88421917CAC600DB6990 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		24AF88481917CAC600DB6990 /* BackOffice2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackOffice2.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24AF88491917CAC600DB6990 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		24AF88511917CAC600DB6990 /* BackOffice2.0Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BackOffice2.0Tests-Info.plist"; sourceTree = "<group>"; };
 		24AF88531917CAC600DB6990 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		24AF88551917CAC600DB6990 /* BackOffice2_0Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackOffice2_0Tests.m; sourceTree = "<group>"; };
+		24AF8877191829F800DB6990 /* ISMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISMViewController.m; sourceTree = "<group>"; };
+		24AF887919182A0F00DB6990 /* ISMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISMViewController.h; sourceTree = "<group>"; };
+		24AF887B19182A9E00DB6990 /* UIWindow+Screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Screenshot.h"; sourceTree = "<group>"; };
+		24AF887C19182A9E00DB6990 /* UIWindow+Screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Screenshot.m"; sourceTree = "<group>"; };
+		24AF887E19183A4A00DB6990 /* fancyBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fancyBackground.png; sourceTree = "<group>"; };
+		24AF88801918BE3400DB6990 /* main-bgr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main-bgr.png"; sourceTree = "<group>"; };
+		24AF88881918C21B00DB6990 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		24AF88891918C21B00DB6990 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
+		24AF888F1918F59000DB6990 /* BackgroundVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundVC.m; sourceTree = "<group>"; };
+		24AF88911918F59700DB6990 /* BackgroundVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackgroundVC.h; sourceTree = "<group>"; };
+		24AF88921918F6E600DB6990 /* UIColor+Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Color.h"; sourceTree = "<group>"; };
+		24AF88931918F6EA00DB6990 /* UIColor+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Color.m"; sourceTree = "<group>"; };
+		24AF88951918F7A400DB6990 /* main-bgr-color.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "main-bgr-color.jpg"; sourceTree = "<group>"; };
+		24AF88971918F7AE00DB6990 /* main-bgr-gray.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "main-bgr-gray.jpg"; sourceTree = "<group>"; };
+		24AF88A619191AD800DB6990 /* SwipeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeView.m; sourceTree = "<group>"; };
+		24AF88A819191ADF00DB6990 /* SwipeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeView.h; sourceTree = "<group>"; };
+		24AF88A9191A2BB400DB6990 /* TaskCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskCell.h; sourceTree = "<group>"; };
+		24AF88AA191A2BB400DB6990 /* TaskCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +141,12 @@
 				24AF88391917CAC600DB6990 /* AppDelegate.h */,
 				24AF883A1917CAC600DB6990 /* AppDelegate.m */,
 				24AF883C1917CAC600DB6990 /* Main.storyboard */,
-				24AF883F1917CAC600DB6990 /* ViewController.h */,
-				24AF88401917CAC600DB6990 /* ViewController.m */,
+				24AF887919182A0F00DB6990 /* ISMViewController.h */,
+				24AF8877191829F800DB6990 /* ISMViewController.m */,
+				24AF889D1918FAA200DB6990 /* Main (Tasks) */,
+				24AF88991918FA0A00DB6990 /* Background */,
+				24AF889A1918FA2700DB6990 /* resources */,
+				24AF887A19182A9E00DB6990 /* Categories */,
 				24AF88421917CAC600DB6990 /* Images.xcassets */,
 				24AF88311917CAC600DB6990 /* Supporting Files */,
 			);
@@ -150,6 +180,50 @@
 				24AF88521917CAC600DB6990 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24AF887A19182A9E00DB6990 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				24AF887B19182A9E00DB6990 /* UIWindow+Screenshot.h */,
+				24AF887C19182A9E00DB6990 /* UIWindow+Screenshot.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		24AF88991918FA0A00DB6990 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				24AF88911918F59700DB6990 /* BackgroundVC.h */,
+				24AF888F1918F59000DB6990 /* BackgroundVC.m */,
+				24AF88921918F6E600DB6990 /* UIColor+Color.h */,
+				24AF88931918F6EA00DB6990 /* UIColor+Color.m */,
+			);
+			name = Background;
+			sourceTree = "<group>";
+		};
+		24AF889A1918FA2700DB6990 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				24AF887E19183A4A00DB6990 /* fancyBackground.png */,
+				24AF88801918BE3400DB6990 /* main-bgr.png */,
+				24AF88951918F7A400DB6990 /* main-bgr-color.jpg */,
+				24AF88971918F7AE00DB6990 /* main-bgr-gray.jpg */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		24AF889D1918FAA200DB6990 /* Main (Tasks) */ = {
+			isa = PBXGroup;
+			children = (
+				24AF88881918C21B00DB6990 /* MainViewController.h */,
+				24AF88891918C21B00DB6990 /* MainViewController.m */,
+				24AF88A9191A2BB400DB6990 /* TaskCell.h */,
+				24AF88AA191A2BB400DB6990 /* TaskCell.m */,
+				24AF88A819191ADF00DB6990 /* SwipeView.h */,
+				24AF88A619191AD800DB6990 /* SwipeView.m */,
+			);
+			name = "Main (Tasks)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +302,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24AF88981918F7AE00DB6990 /* main-bgr-gray.jpg in Resources */,
 				24AF88431917CAC600DB6990 /* Images.xcassets in Resources */,
+				24AF88811918BE3400DB6990 /* main-bgr.png in Resources */,
+				24AF88961918F7A400DB6990 /* main-bgr-color.jpg in Resources */,
 				24AF88351917CAC600DB6990 /* InfoPlist.strings in Resources */,
 				24AF883E1917CAC600DB6990 /* Main.storyboard in Resources */,
+				24AF887F19183A4A00DB6990 /* fancyBackground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +327,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24AF88411917CAC600DB6990 /* ViewController.m in Sources */,
+				24AF88901918F59000DB6990 /* BackgroundVC.m in Sources */,
 				24AF883B1917CAC600DB6990 /* AppDelegate.m in Sources */,
+				24AF88AB191A2BB400DB6990 /* TaskCell.m in Sources */,
+				24AF8878191829F800DB6990 /* ISMViewController.m in Sources */,
 				24AF88371917CAC600DB6990 /* main.m in Sources */,
+				24AF888A1918C21B00DB6990 /* MainViewController.m in Sources */,
+				24AF887D19182A9E00DB6990 /* UIWindow+Screenshot.m in Sources */,
+				24AF88941918F6EA00DB6990 /* UIColor+Color.m in Sources */,
+				24AF88A719191AD800DB6990 /* SwipeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +540,7 @@
 				24AF885B1917CAC600DB6990 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24AF885C1917CAC600DB6990 /* Build configuration list for PBXNativeTarget "BackOffice2.0Tests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +549,7 @@
 				24AF885E1917CAC600DB6990 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
